@@ -6,12 +6,14 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
+import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 
 import java.util.List;
 
+import me.wangyuwei.trend.common.AxisPaint;
 import me.wangyuwei.trend.common.TouchGestureDetector;
 import me.wangyuwei.trend.common.TrendAreaPaint;
 import me.wangyuwei.trend.common.VerticalLinePaint;
@@ -58,8 +60,15 @@ public class TrendChart extends Chart {
         totalTime += drawtime;
         drawCycles += 1;
         long average = totalTime / drawCycles;
-        Log.i("@=>Drawtime", "Drawtime: " + drawtime + " ms, average: " + average + " ms, cycles: "
-                + drawCycles);
+
+
+        Paint paint = new Paint();
+        paint.setTextSize(30);
+        paint.setColor(Color.RED);
+        canvas.drawText("Drawtime: " + drawtime + " ms, average: " + average + " ms, cycles: "
+                + drawCycles, dataQuadrant.getQuadrantStartX() + 20, dataQuadrant.getQuadrantHeight() - 20, paint);
+//        Log.i("@=>Drawtime", "Drawtime: " + drawtime + " ms, average: " + average + " ms, cycles: "
+//                + drawCycles);
 
     }
 

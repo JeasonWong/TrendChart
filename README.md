@@ -1,9 +1,45 @@
-# TrendChart
-###这是demo运行效果图，比较粗暴，只简单的实现了触摸事件
+##**Introduction**
+---
+Simple chart for Android.
 
-![效果](http://i3.piimg.com/f2f4cb563bb3508a.gif)
+###**EFFECT**
+![效果](http://i3.piimg.com/e0cbc098b6a29c68.gif)
 
-###这是目前我在公司app里拓展成的效果
+###Build
+#####Step 1 
+```build
+repositories {
+    maven {
+        url 'https://dl.bintray.com/wangyuwei/maven'
+    }
+}
+```
+#####Step 2
+```java
+compile 'me.wangyuwei:trend:1.0.0'
+```
+
+###**Lincense**
+```lincense
+Copyright [2016] [JeasonWong of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+
+##**Simplified Chinese Version**
+
+##这是目前我在公司app里拓展成的效果
 
 - 分时图拓展
 
