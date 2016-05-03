@@ -1,5 +1,5 @@
-##**Introduction**
----
+##**AndroitChary**
+
 Simple chart for Android.
 
 ###**EFFECT**
