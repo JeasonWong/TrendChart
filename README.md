@@ -1,4 +1,4 @@
-##**AndroitChary**
+##**AndroidChart**
 
 Simple chart for Android.
 
