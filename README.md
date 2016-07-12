@@ -58,6 +58,6 @@ limitations under the License.
 ![效果](http://i3.piimg.com/2a68edcef9c27646.gif)
 
 
-> **参考:** 最base的实现思路是参考伟大的achartengine，大家可以细细品读源码，一定会有收获，在这里附上链接！ http://www.achartengine.org/ 
+> **参考:** 最base的实现思路是参考伟大的achartengine，大家可以细细品读源码，一定会有收获，在这里附上链接！ http://www.achartengine.org/   
 
 
