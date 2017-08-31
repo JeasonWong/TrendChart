@@ -1,13 +1,15 @@
-##**TrendChart**
+## TrendChart
 
 trend chart for Android.
 
-###**EFFECT**
+### EFFECT
+
 ![Markdown](http://ojafgwnc4.bkt.clouddn.com/trendChart.gif)
 
 
-###**Lincense**
-```lincense
+### License
+
+```license
 Copyright [2016] [JeasonWong of copyright owner]
 
 Licensed under the Apache License, Version 2.0 (the "License");
